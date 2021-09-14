@@ -435,9 +435,8 @@ export default {};
     bottom: 18px;
   }
   img {
-    height: 100%;
+    height: 222px;
     width: 100%;
-    display: block;
     object-fit: cover;
     border-radius: 0.5rem;
   }
@@ -461,5 +460,13 @@ export default {};
     width: 53px;
     height: 15px;
   }
+}
+
+@media(min-width:576px){
+    .bet__video{
+        img{
+            height:auto
+        }
+    }
 }
 </style>
